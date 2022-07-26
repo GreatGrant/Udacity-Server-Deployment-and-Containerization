@@ -21,8 +21,8 @@ spec:
     spec:
       containers:
       - name: simple-flask
-        greatgrant/simple_flask
-        image: sudkul/simple-flask
+        # image: IMAGE_TAG
+        image: greatgrant/simple_flask
         securityContext:
           privileged: false
           readOnlyRootFilesystem: false
